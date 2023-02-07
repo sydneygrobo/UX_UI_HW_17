@@ -1,8 +1,51 @@
+nav {
+  padding: 1%;
+  display: flex;
+  justify-content: space-between;
+}
+
+
 .inline-block {
     display: inline-block;
     vertical-align: top;
+    margin-right: auto;
+    list-style-type: none;
+    padding: 15px;
+    
 }
 
-p{ 
-    color:blueviolet
+.headerMenu li {
+  list-style-type: none;
+  padding: 15px;
 }
+
+ul {
+  display: inline-block;
+  text-align: right;
+}
+
+
+  .logo {
+    padding: 1%
+    text-align: center;
+  }
+
+  .heroImg {
+    height: 50px;
+    padding: 25px;
+  }
+
+  .content {
+    width: 500px;
+    margin: 0 auto;
+    text-align: right;
+  }
+
+  .footerMenu {
+    display: inline-block;
+    padding: 10px;
+  }
+  footer {
+    background-color: #BC6C25;
+    padding: 25px;
+  }
