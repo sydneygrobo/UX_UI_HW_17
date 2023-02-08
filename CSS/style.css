@@ -1,14 +1,15 @@
 nav {
+  width: 73%;
   padding: 1%;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
 }
 
 
 .inline-block {
     display: inline-block;
     vertical-align: top;
-    margin-right: auto;
+    margin-right: 300px;
     list-style-type: none;
     padding: 15px;
     
@@ -19,33 +20,62 @@ nav {
   padding: 15px;
 }
 
+.headerMenu {
+  display: flex;
+  padding: 10px;
+}
+
 ul {
   display: inline-block;
   text-align: right;
 }
 
-
   .logo {
-    padding: 1%
-    text-align: center;
+    width: 23%;
+    padding: 1%;
+    display: flex-start;
   }
 
-  .heroImg {
-    height: 50px;
-    padding: 25px;
+  .heroImg img{
+    height: 334px;
+    width: 793px;
+
   }
 
   .content {
     width: 500px;
     margin: 0 auto;
-    text-align: right;
+    text-align: left;
+    padding: 5px;
   }
 
+  .flexContainer {
+    display: flex;
+    justify-content: space between;
+  }
   .footerMenu {
-    display: inline-block;
+    display: inline-flex;
     padding: 10px;
   }
   footer {
     background-color: #BC6C25;
     padding: 25px;
+  }
+
+  .img {
+    height: 334px;
+    width: 793px;
+    image-rendering: auto;
+  }
+
+  p{
+    color: #656D4A;
+  }
+
+  h1{
+    color: #656D4A;
+  }
+
+  body{
+    background-color: #FFF6EA
   }
